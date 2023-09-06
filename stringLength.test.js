@@ -16,10 +16,10 @@ test('stringLength function should handle null and undefined inputs', () => {
 test('stringLength function should throw an error for input strings not within the length range', () => {
   // Test cases for input strings not within the length range
   expect(() => stringLength('')).toThrow(
-    'Input string length must be between 1 and 10 characters'
+    'Input string length must be between 1 and 10 characters',
   );
   expect(() => stringLength('TooLongString')).toThrow(
-    'Input string length must be between 1 and 10 characters'
+    'Input string length must be between 1 and 10 characters',
   );
 });
 

@@ -42,7 +42,7 @@ describe('Calculator', () => {
 
     test('should correctly handle division by zero', () => {
       expect(() => calculator.divide(5, 0)).toThrow(
-        'Division by zero is not allowed'
+        'Division by zero is not allowed',
       );
     });
   });
